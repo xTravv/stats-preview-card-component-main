@@ -1,0 +1,86 @@
+/* Text Styles */
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: "Inter";
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: white; 
+}
+
+h2{
+    font-family: "Inter";
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: white; 
+}
+
+p{
+    font-family: "Lexend Deca";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #A9A9A9;
+}
+
+.highlight{
+    color: #A659D6;
+}
+
+/* Card Wrpr */
+
+.card{
+    width: 1000px;
+    height: 405px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+/* Left side of the card */
+
+.left-wrpr{
+    position: relative;
+    width: 50%;
+    padding: 60px 0px 0px 55px;
+    background-color: #1C1938;
+}
+
+/* Top portion */
+
+.main-header{
+    width: 320px;
+}
+
+.sub-header{
+    width: 300px;
+}
+
+/* Bottom Portion */
+
+.bot-section{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 330px;
+}
+
+.sec-1, .sec-2, .sec-3{
+    height: 100px;
+    width: 100%;
+
+}
+.blurb{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* Right side of Card */
+
+.right-wrpr{
+    width: 50%;
+    background-color: #A9A9A9;
+}
