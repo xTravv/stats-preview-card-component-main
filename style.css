@@ -42,6 +42,7 @@ p{
 /* Left side of the card */
 
 .left-wrpr{
+    border-radius: 12px 0 0 12px;
     position: relative;
     width: 50%;
     padding: 60px 0px 0px 55px;
@@ -81,11 +82,28 @@ p{
 /* Right side of Card */
 
 .right-wrpr{
+    border-radius: 0 12px 12px 0;
     width: 50%;
+    position: relative;
     background-color: #A9A9A9;
 }
 
-img{
+.overlay{
+    border-radius: 0 12px 12px 0;
     width: 100%;
     height: 100%;
+    position: absolute;
+    background-color: hsla(277, 42%, 51%, 0.55);
+    background-blend-mode: multiply;
+}
+
+img{
+    border-radius: 0 12px 12px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.picture{
+    width: 70%;
+    height: 70%;
 }
