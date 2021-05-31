@@ -32,8 +32,8 @@ p{
 /* Card Wrpr */
 
 .card{
-    width: 1000px;
-    height: 405px;
+    width: 900px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -44,7 +44,7 @@ p{
 .left-wrpr{
     border-radius: 12px 0 0 12px;
     position: relative;
-    width: 50%;
+    width: 45%;
     padding: 60px 0px 0px 55px;
     background-color: #1C1938;
 }
@@ -103,3 +103,13 @@ img{
     height: 100%;
 }
 
+@media (max-width: 475px ) {
+
+.card{
+    width: 80vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    }
+}
