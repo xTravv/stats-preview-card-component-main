@@ -32,8 +32,9 @@ p{
 /* Card Wrpr */
 
 .card{
-    width: 900px;
-    height: 400px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 25vh;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -44,7 +45,6 @@ p{
 .left-wrpr{
     border-radius: 12px 0 0 12px;
     position: relative;
-    width: 45%;
     padding: 60px 0px 0px 55px;
     background-color: #1C1938;
 }
@@ -52,28 +52,28 @@ p{
 /* Top portion */
 
 .main-header{
-    width: 320px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sub-header{
-    width: 300px;
+    width: 75%;
 }
 
 /* Bottom Portion */
 
 .bot-section{
-    position: absolute;
-    bottom: 0px;
     display: flex;
     flex-direction: row;
-    width: 330px;
+    margin-top: 48px;
 }
 
 .sec-1, .sec-2, .sec-3{
     height: 100px;
-    width: 100%;
+    width: 120px;
 
 }
+
 .blurb{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -82,8 +82,8 @@ p{
 /* Right side of Card */
 
 .right-wrpr{
+    width: 100%;
     border-radius: 0 12px 12px 0;
-    width: 50%;
     position: relative;
     background-color: #A9A9A9;
 }
@@ -103,13 +103,42 @@ img{
     height: 100%;
 }
 
-@media (max-width: 475px ) {
+@media (max-width: 825px ) {
 
 .card{
-    width: 80vw;
-    height: 400px;
+    width: 90vw;
+    height: auto;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     background-color: black;
-    }
+}
+
+.left-wrpr{
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+    padding: 60px 55px 0px 55px;
+}
+
+.sub-header{
+    width: 100%;
+    margin-top: 6px;
+}
+
+.bot-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.sec-1, .sec-2, .sec-3 {
+    height: 100px;
+    min-width: 90px;
+}
+
+img, .right-wrpr, .overlay{
+    border-radius: 0 0 12px 12px;
+}
+
 }
