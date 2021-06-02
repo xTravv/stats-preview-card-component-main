@@ -105,40 +105,51 @@ img{
 
 @media (max-width: 825px ) {
 
-.card{
-    width: 90vw;
-    height: auto;
-    margin-top: 5vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-}
+    .card{
+        width: 80vw;
+        height: auto;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
 
-.left-wrpr{
-    border-radius: 12px 12px 0 0;
-    text-align: center;
-    padding: 60px 55px 0px 55px;
-}
+    .left-wrpr{
+        border-radius: 12px 12px 0 0;
+        text-align: center;
+        padding: 36px 54px 0px 54px;
+    }
 
-.sub-header{
-    width: 100%;
-    margin-top: 6px;
-}
+    .sub-header{
+        width: 100%;
+        margin-top: 6px;
+    }
 
-.bot-section{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 24px;
-}
+    .bot-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
 
-.sec-1, .sec-2, .sec-3 {
-    height: 100px;
-    min-width: 90px;
-}
+    .sec-1, .sec-2, .sec-3 {
+        height: 100px;
+        min-width: 90px;
+    }
 
-img, .right-wrpr, .overlay{
-    border-radius: 0 0 12px 12px;
+    img, .right-wrpr, .overlay{
+        border-radius: 0 0 12px 12px;
+    }
 }
-
+@media screen and (max-width: 360px){
+    
+    .bot-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec-1{
+        width: auto;
+    }
 }
